@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer {
+    text-align: center;
+    font-family: cursive;
+    padding: 1%;
+    border: 2px solid black;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: black;
+}
