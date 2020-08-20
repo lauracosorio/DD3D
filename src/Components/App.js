@@ -13,6 +13,7 @@ function App() {
     <BrowserRouter>
       <Layout>
         <Switch>
+          <Route exact path="/" component={CEO} />
           <Route exact path="/CEO" component={CEO} />
           <Route exact path="/Nuestra-Empresa" component={Empresa} />
           <Route exact path="/Cotizador" component={Cotizador} />
