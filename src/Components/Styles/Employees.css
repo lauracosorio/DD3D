@@ -1,0 +1,28 @@
+.employees {
+    border: 2px solid black;
+    border-bottom: none;
+    padding: 3%;
+}
+
+table {
+    margin: auto;
+    border: 2px solid black;
+}
+
+tr {
+    border: 2px solid black;
+}
+
+td {
+    width: 10vw;
+
+}
+
+.one {
+background-color: rgba(128, 128, 128, 0.295);
+}
+
+.tableTitle {
+    font-weight: 600;
+    background-color: rgba(128, 128, 128, 0.397);
+}

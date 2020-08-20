@@ -3,7 +3,6 @@ import { data } from "../utils/mocks/data";
 import "./Styles/Main.css";
 
 function Tools(params) {
-
   // const table = {
   //   backgroundColor: "gray",
   //   display: "block",
@@ -16,12 +15,9 @@ function Tools(params) {
         {data.Tools.map((item, index) => {
           return (
             <div border={0} className="tool" key={`main-tools-${index}`}>
-            
-                <small>{item.title}</small>
+              <small>{item.title}</small>
 
-                <img className="corel" src={item.image} alt={item.title} />
-              
-              
+              <img className="corel" src={item.image} alt={item.title} />
             </div>
           );
         })}

@@ -177,13 +177,6 @@ body {
   padding-right: 0%;
 }
 
-th {
-  display: block;
-  width: 100%;
-  text-align: left;
-  background-color: gray;
-}
-
 .gray {
   background-color: gray;
 }
