@@ -1,0 +1,19 @@
+.cotizador {
+    border: 2px solid black;
+    border-bottom: none;
+    text-align: center;
+    padding-bottom: 10%;
+    font-family: cursive;    
+}
+
+.cotizador p {
+    padding: 2%;
+}
+
+
+.container{
+display: block;
+margin: 3% auto;
+}
+
+

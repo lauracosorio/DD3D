@@ -262,33 +262,3 @@ body {
       margin: 5% auto;
   }
 }
-/*
-@media (max-width: 279px) {
-    .main__description {
-       
-    display: flex;
-    flex-direction: column;
-    margin: 3%;
-    border: 2px solid black;
-  }
-  .main__description--image {
-    width: 80%;
-    margin: 5% auto;
-  }
-  
-} */
-
-/* @media (min-width: 450px) {
-   
-    .main__description {
-       
-        display: flex;
-        flex-direction: row;
-        margin: 3%;
-        border: 2px solid black;
-      }
-      .main__description--image {
-        width: 50%;
-        margin: 5% auto;
-      }
-} */

@@ -15,7 +15,6 @@ tr {
 
 td {
     width: 10vw;
-
 }
 
 .one {
@@ -26,3 +25,26 @@ background-color: rgba(128, 128, 128, 0.295);
     font-weight: 600;
     background-color: rgba(128, 128, 128, 0.397);
 }
+
+@media (max-width: 900px) {
+    table {
+  
+        margin: auto;
+        border: 2px solid black;
+        width: 100%;
+    }
+
+    td {
+        display: inline-block;
+        width: 25%;
+        font-size: 0.9rem;
+        overflow: auto;
+        padding: 0% 5%;
+    }
+
+    .employees {
+        padding: 5%;
+    }
+    
+  
+  }
