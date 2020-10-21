@@ -70,9 +70,9 @@ class Cotizacion extends React.Component {
                   type="number"
                   className="form-control"
                   readOnly
-                  name="unidad"
+                  name="total"
                   value={this.props.total}
-                  onChange={this._handleOnChangeUnidad}
+                  onChange={this._total}
                 />
               </div>
             </div>
